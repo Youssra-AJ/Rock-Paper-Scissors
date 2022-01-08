@@ -1,0 +1,102 @@
+body {
+    background-color:#c9b69e;
+ }
+ 
+ .player-choice {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    
+    
+ }
+ 
+ .choices {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     padding: 10px;
+ }
+ 
+ .rock {
+    height: 80px;
+    width: 120px;
+ }
+ 
+ .paper {
+    height: 80px;
+    width: 120px;
+ }
+ 
+ .scissors {
+    height: 80px;
+    width: 120px;
+ }
+ 
+ .computer-choice {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ 
+ /* Game result display. .result is container and .resultdisplay is child item */
+ 
+ .result {
+    display: flex;
+    justify-content: center
+    
+ }
+ 
+ .resultdisplay { 
+    display: flex;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: sienna;
+ 
+ }
+ .computerplay {
+    padding-top: 20px;
+ }   
+ 
+ .scoredisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+ }
+ 
+ .computerscore {
+    font-size: 28px;
+    color: rgba(35, 66, 169, 0.782);
+    display: flex;
+ }
+ 
+ .playerscore {
+    font-size: 28px;
+    color: rgba(35, 66, 169, 0.782);
+    display: flex;
+ }
+ 
+ .gameover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .refresh {
+    height: 40px;
+    width: 80px;
+    
+ }
+ 
+ .resultdisplay {
+    font-size: 25px;
+    color: brown;
+ }
+ 
+ .gameresult {
+    font-size: 28px;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
